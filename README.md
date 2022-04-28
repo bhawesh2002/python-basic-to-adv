@@ -1,2 +1,2 @@
 # python-basic-to-adv
-First time python
+First time learning python
