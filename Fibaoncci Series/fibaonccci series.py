@@ -8,7 +8,7 @@ sum = 0  # sum of the series
 
 print("Fibonacci series:")
 for i in range(1, terms+1):  # for loop to print the series
-    print(sum, "+")
+    print(sum, "+" , end = " ")
     sum = first + second
     first = second
     second = sum
