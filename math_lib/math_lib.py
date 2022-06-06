@@ -1,0 +1,26 @@
+import math
+
+print("Code snippet containing use of some of the functions defined in math library to get an idea of the o/p produced by functions")
+
+num = float(input("Enter a number:"))
+
+sqRoot = math.sqrt(num)
+sine = math.sin(num)
+cos = math.cos(num)
+tan = math.tan(num)
+deg = math.degrees(num)
+exp = math.exp(num)
+fact = math.factorial(num)
+log10 = math.log10(num)
+rad = math.radians(num)
+power = math.pow(num,num)
+print("Squre root = ", sqRoot)
+print("Sine = ", sine)
+print("Cos = ", cos)
+print("Tan = ", tan)
+print("math.degrees(",num,")", deg)
+print("math.exp(",num,")", exp)
+print("math.factorial(",num,")", fact)
+print("math.log10(",num,")", log10)
+print("math.radians(",num,")", rad)
+print("math.pow(",num,",",num,")", power)
