@@ -22,4 +22,6 @@ def type (num1):
     else:
         print(num1, " is odd")
     return None
-print(type(5))
+
+isEven = type(5)
+print(isEven)
