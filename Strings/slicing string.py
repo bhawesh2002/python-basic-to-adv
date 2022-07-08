@@ -21,5 +21,5 @@ def type (num1):
         print(num1, " is even")
     else:
         print(num1, " is odd")
-
+    return None
 print(type(5))
