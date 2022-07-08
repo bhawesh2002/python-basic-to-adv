@@ -10,7 +10,16 @@ print("Name" not in str)
 print("Jimmy" in str)
 for i in str:
     print(i,end="")
+print('\n')
 i = 0
 while (i< len(str)):
     print(str[i],end="")
     i+=1
+print('\n')
+def type (num1):
+    if(num1 % 2 == 0):
+        print(num1, " is even")
+    else:
+        print(num1, " is odd")
+
+print(type(5))
