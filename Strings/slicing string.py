@@ -22,6 +22,6 @@ def type (num1):
     else:
         print(num1, " is odd")
     return None
-
-isEven = type(5)
+number = int(input("Enter a number: "))
+isEven = type(number)
 print(isEven)
